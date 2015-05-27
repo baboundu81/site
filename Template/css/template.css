@@ -1,0 +1,101 @@
+/* .navbar {
+	background-color : #e74c3c;
+	border : none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color : #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color : #34485e;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color : #fff;
+	background-color : #e74c3c;
+	border-bottom : solid #fff 5px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color : #34485e;
+} */
+
+header {
+	position:absolute;
+	top:0px;
+	display:block;
+	width:100%;
+	z-index:10;
+}
+
+#reseau {
+	position:relative;
+	float: right;
+	margin-top:60px;
+	margin-right:60px;
+}
+
+#fb {
+	height:32px;
+	width:32px;
+	display:block;
+	background: url(../img/logo/facebook.png) no-repeat top left;
+	background-size: 32px 32px;
+}
+
+#gplus {
+	height:32px;
+	width:32px;
+	display:block;
+	background: url(../img/logo/google_plus.png) no-repeat top left;
+	background-size: 32px 32px;
+}
+
+#yout {
+	height:32px;
+	width:32px;
+	display:block;
+	background: url(../img/logo/youtube.png) no-repeat top left;
+	background-size: 32px 32px;
+}
+
+#vim {
+	height:32px;
+	width:32px;
+	display:block;
+	background: url(../img/logo/vimeo.png) no-repeat top left;
+	background-size: 32px 32px;
+}
+
+#base-logo {
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+#base-logo:before {
+	content:"";
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+}
+
+#base-logo  img {
+	visibility: visible;
+	opacity:0.0;
+	display:inline-block;
+	vertical-align:middle;
+	max-width:300px;
+	-webkit-transition: opacity 1s linear;
+	-moz-transition: opacity 1s linear;
+	-o-transition: opacity 1s linear;
+}
+
+#bgvid {
+    width:100%;
+}
